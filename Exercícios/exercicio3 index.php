@@ -9,6 +9,24 @@
 
  <!-- Código do float -->
  <?php
+echo "Exemplo número inteiro. <br>";
+echo 9 + 4;
+echo "<br>";
+
+if(is_int(5)) {//true
+    echo "Verificação de um inteiro <br>";
+    }
+    echo "<br>";
+    echo "Número flutuantes";
+    echo 1.163;
+    echo "<br>";
+    
+    $b = 12.8;
+
+    if(is_float($b)) {
+        echo "É float 1! <br>";
+    }
+    echo "<br>";
 
 $a = "teste teste tudo pelo valmir";
 $b = 22.9;
